@@ -1,6 +1,7 @@
 Laboratoria miały na celu nauki pisania skryptów w bashu. Ostatnie laboratoria były odmianą niektórych z zadań w języku Python
 
 LAB4:
+
   Zad 1.
     Napisać skrypt, który w zadanym katalogu(parametr wywołania skryptu):
     - w zadanym katalogu stworzy strukturę plików pozwalającą na przetestowanie zadania
@@ -29,18 +30,19 @@ LAB5:
 
 
 LAB6:
-  Zad 1
-    Proszę zapisać wyrażenia regularne, aby wykryć czy dowolny ciąg pasuje do poniższych problemów:
-    a) Imię i nazwisko - proszę uwzględnić: drugie imię, nazwisko z myślnikiem. Czyli wzorzec powinien wykryć zarówno: "Adam Nowak" i "Anna Maria Kowalska-Nowak". Niewymagane są polskie znaki.
-    b) kod pocztowy i miasto: proszę uwzględnić polskie znaki oraz uwzględnić też takie miejscowości jak: "Zielona Góra" czy "Bielsko-Biała"
-    c) e-mail - proszę uwzględnić również wiele "sub-domen" np. "student.pwr.edu.pl". Proszę nie korzystać z zaawansowanych gotowców (mimo iż w projektach komercyjnych jest to rekomendowane podejście).
-    d) deklaracje funkcji w C np: "void fun(int, *int);". 
-    
-  Zad 2
-    Napisać program w bash, który z wykorzystaniem wyrażeń regularnych przeanalizuje https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords i z sekcji "Top-100" policzy ile jest haseł:
-    - zawierających tylko same cyfry
-    - zawierających tylko same małe litery
-    - składających się z powtórzonego tego samego znaku
+
+      Zad 1
+        Proszę zapisać wyrażenia regularne, aby wykryć czy dowolny ciąg pasuje do poniższych problemów:
+        a) Imię i nazwisko - proszę uwzględnić: drugie imię, nazwisko z myślnikiem. Czyli wzorzec powinien wykryć zarówno: "Adam Nowak" i "Anna Maria Kowalska-Nowak". Niewymagane są polskie znaki.
+        b) kod pocztowy i miasto: proszę uwzględnić polskie znaki oraz uwzględnić też takie miejscowości jak: "Zielona Góra" czy "Bielsko-Biała"
+        c) e-mail - proszę uwzględnić również wiele "sub-domen" np. "student.pwr.edu.pl". Proszę nie korzystać z zaawansowanych gotowców (mimo iż w projektach komercyjnych jest to rekomendowane podejście).
+        d) deklaracje funkcji w C np: "void fun(int, *int);". 
+
+      Zad 2
+        Napisać program w bash, który z wykorzystaniem wyrażeń regularnych przeanalizuje https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords i z sekcji "Top-100" policzy ile jest haseł:
+        - zawierających tylko same cyfry
+        - zawierających tylko same małe litery
+        - składających się z powtórzonego tego samego znaku
 
 
 
@@ -51,8 +53,5 @@ LAB7:
     których mamy ustawione prawo wykonywania („execute”), przez dodanie dodatkowego
     członu rozszerzenia o postaci .<numer kolejny>. Numeracja powinna przebiegać według
     wielkości plików. 
-    2. Usuwanie wszystkich podkatalogów zadanego katalogu (parametr wywołania skryptu).
-Zawartość tych podkatalogów należy przenieść do katalogu nadrzędnego. Usuwanie dotyczy
-tylko jednego poziomu podkatalogów. 
-    3. Policzenie wszystkich plików w zadanym katalogu (parametr wywołania skryptu), do których
-ustawione jest prawo dostępu do wykonania („execute”). 
+    2. Usuwanie wszystkich podkatalogów zadanego katalogu (parametr wywołania skryptu). Zawartość tych podkatalogów należy przenieść do katalogu nadrzędnego. Usuwanie dotyczy tylko jednego poziomu podkatalogów. 
+    3. Policzenie wszystkich plików w zadanym katalogu (parametr wywołania skryptu), do których ustawione jest prawo dostępu do wykonania („execute”). 
