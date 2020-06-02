@@ -12,11 +12,7 @@ LAB4:
     - w zadanym katalogu stworzy strukturę plików pozwalającą na przetestowanie zadania
     - a) zapisze do pliku ./result.dat i wyświetli na ekranie pliki, które mają rozszerzenie (*.txt lub *.dat) i są większe niż 1 kilobajt w formacie: "ścieżka_kanoniczna|data|czas" np. "/home/x/y/z/test.txt|31.03.2020|10:30:12"
     - b) z pliku ./result.dat dla każdego wiersza wydobędzie samą nazwę pliku(bez rozszerzenia) i minutę: np. "test 30"
-
-    Uwagi:
-    - w zad 2. a) - proponuję użyć komendy `date`
-    - w zad 2. b) - proponuję użyć prostych komend typu `cut`
-    - proszę NIE używać bardziej zaawansowanych komend bash - grep, awk, itd. Są to zadania głównie find i przetwarzania potokowego(|)
+    
 
 
 LAB5: 
