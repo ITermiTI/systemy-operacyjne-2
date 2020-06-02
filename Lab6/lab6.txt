@@ -1,0 +1,26 @@
+a)
+^[A-Z][a-z]+( )([A-Z][a-z]+( ))?[[A-Z][a-z]+((-)[A-Z][a-z]+)?$
+
+b)
+
+^[0-9]{2}(-)[0-9]{3}(,)?( )[A-ZŻŹĆĄŚĘŁÓŃ][a-zżźćńółęąś]+((( )|(-))[A-ZŻŹĆĄŚĘŁÓŃ][a-zżźćńółęąś]+)?$
+
+użyto do testowania:
+41-400, Bielsko-Biała
+41-400, Zielona Góra
+41-400, Katowice
+4140, Wilki
+Wilki
+41-400 Wojkowice
+
+przyjęto format najpierw kod pocztowy potem po spacji lub przecinku i spacji nazwa miasta 
+
+c)
+
+^[A-Z0-9,+=_%.a-z]+@[A-Za-z0-9.-]+\.[a-z]{2,3}$
+
+przyjęto, że końcowa domena ma 2 lub 3 znaki (.pl, .com etc.) - w wypadku gdy należy zamienić na 2 lub dowolnie długą końcówka
+wyglądałaby następująco: ...{2,}$
+
+d)
+^[A-Za-z0-9]+( )[A-Za-z0-9]+\((([a-zA-Z*&, ]{0,})([A-Za-z]|\*))?\);$
